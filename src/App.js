@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Header status={status} />
+      <Header />
       <div className='body'>
         <input type='text' />
         &nbsp;
@@ -43,7 +43,7 @@ function App() {
         &nbsp;
         {body}
       </div>
-      <Footer status={status} />
+      <Footer />
     </div>
   );
 }

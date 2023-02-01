@@ -8,7 +8,7 @@ import {
 const initState = Immutable.fromJS({
   status: 'UNINIT',
   error: '',
-  data: {}
+  data: []
 })
 
 const reducer = (state = initState, action) => {
